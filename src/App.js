@@ -3,7 +3,7 @@ import SearchBar from "./components/SearchBar";
 import WeatherDisplay from "./components/WeatherDisplay";
 
 const api = {
-	key: "fa5a26b4083eaf1ce518452f222ef973",
+	key: process.env.REACT_APP_API_KEY,
 	base: "https://api.openweathermap.org/data/2.5/",
 };
 
